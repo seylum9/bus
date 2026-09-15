@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/24_27_80_92_93_110_227_777/down1.html",
+      "retrievedAt": "2026-09-15T05:17:58.688Z",
+      "file": "down1.html",
+      "bytes": 333454,
+      "sha256": "ce2688e9385d4d8f1335b2bfa54823ba73fa6c3dada06324dcf09bc1df3a7a25",
+      "description": "24・27・80・92・93・110・227・777番 平日・下り（うるま市方面）。原本はページ全体、アプリへの取り込み対象は24・27・80・92・110番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/24_27_80_92_93_110_227_777/down2.html",
+      "retrievedAt": "2026-09-15T05:17:58.923Z",
+      "file": "down2.html",
+      "bytes": 185851,
+      "sha256": "838c51d8418cd4a7cab181475baed4cdc08cec9df43ca50c33e4915eee363889",
+      "description": "24・27・80・92・93・110・227・777番 土曜・下り（うるま市方面）。原本はページ全体、アプリへの取り込み対象は24・27・80・92・110番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/24_27_80_92_93_110_227_777/down3.html",
+      "retrievedAt": "2026-09-15T05:17:59.232Z",
+      "file": "down3.html",
+      "bytes": 195977,
+      "sha256": "826eaddff5393b2cc9e992f66a195a7926df88d28258de5f9eed020eec329a5d",
+      "description": "24・27・80・92・93・110・227・777番 日祝・下り（うるま市方面）。原本はページ全体、アプリへの取り込み対象は24・27・80・92・110番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/24_27_80_92_93_110_227_777/up1.html",
+      "retrievedAt": "2026-09-15T05:17:59.489Z",
+      "file": "up1.html",
+      "bytes": 319761,
+      "sha256": "9b756c65ca15454323d1a90ef462f5bbf405eafa66a6a365bc5400e93d01c742",
+      "description": "24・27・80・92・93・110・227・777番 平日・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は24・27・80・92・110番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/24_27_80_92_93_110_227_777/up2.html",
+      "retrievedAt": "2026-09-15T05:17:59.809Z",
+      "file": "up2.html",
+      "bytes": 214223,
+      "sha256": "1c6aa8fcb42638cef54c9f4f807fbf2abbcd26780793eeca5ff04326d3b58911",
+      "description": "24・27・80・92・93・110・227・777番 土曜・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は24・27・80・92・110番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/24_27_80_92_93_110_227_777/up3.html",
+      "retrievedAt": "2026-09-15T05:18:00.052Z",
+      "file": "up3.html",
+      "bytes": 224273,
+      "sha256": "cb630e9b702a1812c3d67d296ae7ec3830164a28072278aa998357b2491da4c4",
+      "description": "24・27・80・92・93・110・227・777番 日祝・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は24・27・80・92・110番の安謝橋〜那覇バスターミナル間のみ。"
+    }
+  ]
+}

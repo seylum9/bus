@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/32_43_132_143_385/down1.html",
+      "retrievedAt": "2026-09-15T06:30:20.466Z",
+      "file": "down1.html",
+      "bytes": 73433,
+      "sha256": "112157d9bf4c3c802fec22dd8a94f725e18eb66b232ecfbc74bc45700114a826",
+      "description": "32・43・132・143・385番 平日・下り（サンエーパルコシティー・沖縄コンベンションセンター・北谷町方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/32_43_132_143_385/down2.html",
+      "retrievedAt": "2026-09-15T06:30:20.693Z",
+      "file": "down2.html",
+      "bytes": 65830,
+      "sha256": "43dcad4ecd3613de53d0ed3ece8b5755691fae2270d7af5ef971b72e9451e942",
+      "description": "32・43・132・143・385番 土曜日・下り（サンエーパルコシティー・沖縄コンベンションセンター・北谷町方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/32_43_132_143_385/down3.html",
+      "retrievedAt": "2026-09-15T06:30:20.996Z",
+      "file": "down3.html",
+      "bytes": 63500,
+      "sha256": "9da36cb2da19fff9c6df660f7e518d970ef2748079295f8768ac8a79a967471e",
+      "description": "32・43・132・143・385番 日祝日・下り（サンエーパルコシティー・沖縄コンベンションセンター・北谷町方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/32_43_132_143_385/up1.html",
+      "retrievedAt": "2026-09-15T06:30:21.244Z",
+      "file": "up1.html",
+      "bytes": 71849,
+      "sha256": "648b401e52f151f538b1d301365fbeb291ae79bf94c1c6566ce0b0357ab0f5f0",
+      "description": "32・43・132・143・385番 平日・上り（那覇空港・豊見城営業所方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/32_43_132_143_385/up2.html",
+      "retrievedAt": "2026-09-15T06:30:21.528Z",
+      "file": "up2.html",
+      "bytes": 66582,
+      "sha256": "a8e752e31842c84aa59447e42c29fedec1db7025c89427359d2350641bdbd147",
+      "description": "32・43・132・143・385番 土曜日・上り（那覇空港・豊見城営業所方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/32_43_132_143_385/up3.html",
+      "retrievedAt": "2026-09-15T06:30:21.752Z",
+      "file": "up3.html",
+      "bytes": 64060,
+      "sha256": "35cc9cb9504c598f49b5cd0e3c3c5cd454ca911c919d7e187da4131f78156966",
+      "description": "32・43・132・143・385番 日祝日・上り（那覇空港・豊見城営業所方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル間のみ。"
+    }
+  ]
+}

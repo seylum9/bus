@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/26_99/down1.html",
+      "retrievedAt": "2026-09-15T05:24:24.439Z",
+      "file": "down1.html",
+      "bytes": 57525,
+      "sha256": "b550cc56ca7aa418064b6ad0ca54a2b3b529c814578886e62654d65a4800b588",
+      "description": "26・99番 平日・下り（宜野湾出張所方面）。原本はページ全体、アプリへの取り込み対象は26番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/26_99/down2.html",
+      "retrievedAt": "2026-09-15T05:24:24.651Z",
+      "file": "down2.html",
+      "bytes": 38024,
+      "sha256": "56fe42f092291dff0aef9f7895fab147d55fa7d9259b21175fbfb81afb4c679d",
+      "description": "26・99番 土休日・下り（宜野湾出張所方面）。原本はページ全体、アプリへの取り込み対象は26番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/26_99/up1.html",
+      "retrievedAt": "2026-09-15T05:24:24.882Z",
+      "file": "up1.html",
+      "bytes": 48185,
+      "sha256": "d4facd7fd0bedb9003766e9f90716029c8a79d833da0ca6577274c73fd34abbc",
+      "description": "26・99番 平日・上り（那覇空港方面）。原本はページ全体、アプリへの取り込み対象は26番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/26_99/up2.html",
+      "retrievedAt": "2026-09-15T05:24:25.143Z",
+      "file": "up2.html",
+      "bytes": 34554,
+      "sha256": "784a68d736679adf03d309f913ee08a7a0f6af8668ae6fc1bb244db31654ed19",
+      "description": "26・99番 土休日・上り（那覇空港方面）。原本はページ全体、アプリへの取り込み対象は26番の安謝橋〜那覇バスターミナル間のみ。"
+    }
+  ]
+}

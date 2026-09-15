@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/28_29_228/down1.html",
+      "retrievedAt": "2026-09-15T05:26:57.704Z",
+      "file": "down1.html",
+      "bytes": 125617,
+      "sha256": "34d4b6e0ec30f296324f99cfb45324e9948448f91456550f2fb895bc1d2345d3",
+      "description": "28・29・228番 平日・下り（読谷村方面）。原本はページ全体、アプリへの取り込み対象は28・29番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/28_29_228/down2.html",
+      "retrievedAt": "2026-09-15T05:26:57.969Z",
+      "file": "down2.html",
+      "bytes": 103151,
+      "sha256": "4724b1ed4660fd11954eb509f4315148d2fc65591c4b1037ef85182b38887b1e",
+      "description": "28・29・228番 土休日・下り（読谷村方面）。原本はページ全体、アプリへの取り込み対象は28・29番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/28_29_228/up1.html",
+      "retrievedAt": "2026-09-15T05:26:58.291Z",
+      "file": "up1.html",
+      "bytes": 127936,
+      "sha256": "49c496ed48dcd4e21a0e55eeb9410e802db87473c00be477d14d39cb88e58d76",
+      "description": "28・29・228番 平日・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は28・29番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/28_29_228/up2.html",
+      "retrievedAt": "2026-09-15T05:26:58.617Z",
+      "file": "up2.html",
+      "bytes": 105096,
+      "sha256": "6d87528c554ed1de3621d1567884f1dc3f1e7e9f2bfcfe24c197ec2ea0d75c8c",
+      "description": "28・29・228番 土休日・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は28・29番の安謝橋〜那覇バスターミナル間のみ。"
+    }
+  ]
+}

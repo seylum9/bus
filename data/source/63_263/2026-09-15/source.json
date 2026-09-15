@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/63_263/down1.html",
+      "retrievedAt": "2026-09-15T06:27:41.719Z",
+      "file": "down1.html",
+      "bytes": 67074,
+      "sha256": "ae2ca6272f222d2cd747c9ecc29ac59794fcc7f3d52620cd24828ecf0521acb8",
+      "description": "63・263番 平日・下り（具志川バスターミナル方面）。原本はページ全体、アプリへの取り込み対象は63番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/63_263/down2.html",
+      "retrievedAt": "2026-09-15T06:27:41.899Z",
+      "file": "down2.html",
+      "bytes": 54347,
+      "sha256": "e0cec80ebf5f6f395ea4898313a2529c2f6292f6df8c1bd08af1c8e8eb32cf2c",
+      "description": "63・263番 土曜・下り（具志川バスターミナル方面）。原本はページ全体、アプリへの取り込み対象は63番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/63_263/down3.html",
+      "retrievedAt": "2026-09-15T06:27:42.122Z",
+      "file": "down3.html",
+      "bytes": 54329,
+      "sha256": "f590927c15474ca8df9177fb9224d14fdaafcde442e94a5688bb70e169c40667",
+      "description": "63・263番 日祝日・下り（具志川バスターミナル方面）。原本はページ全体、アプリへの取り込み対象は63番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/63_263/up1.html",
+      "retrievedAt": "2026-09-15T06:27:42.313Z",
+      "file": "up1.html",
+      "bytes": 66710,
+      "sha256": "aca66610ea7f4b5788e690739443ef75ebd1db681ae9fa91eb3957cabc20ee96",
+      "description": "63・263番 平日・上り（那覇バスターミナル方面）。原本はページ全体、アプリへの取り込み対象は63番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/63_263/up2.html",
+      "retrievedAt": "2026-09-15T06:27:42.494Z",
+      "file": "up2.html",
+      "bytes": 54120,
+      "sha256": "d7ac849ff6d2f21e9e3408561dc34702954e65fb5d547d23328a940a396a581f",
+      "description": "63・263番 土曜・上り（那覇バスターミナル方面）。原本はページ全体、アプリへの取り込み対象は63番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/63_263/up3.html",
+      "retrievedAt": "2026-09-15T06:27:42.756Z",
+      "file": "up3.html",
+      "bytes": 54080,
+      "sha256": "81e7cba201778f08cb591e7c0268e44ab58807bd53d1cc1857df436bbd5a408f",
+      "description": "63・263番 日祝日・上り（那覇バスターミナル方面）。原本はページ全体、アプリへの取り込み対象は63番の安謝橋〜那覇バスターミナル間のみ。"
+    }
+  ]
+}

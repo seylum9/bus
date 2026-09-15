@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/23_31_223_331/down1.html",
+      "retrievedAt": "2026-09-15T04:57:20.492Z",
+      "file": "down1.html",
+      "bytes": 206526,
+      "sha256": "2095d263895bf487f0cae5b90b80117196feb5e6bf00819823d22d671bb5bae2",
+      "description": "23・31・223・331番 平日・下り（沖縄市・うるま市方面）。原本はページ全体、アプリへの取り込み対象は23番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/23_31_223_331/down2.html",
+      "retrievedAt": "2026-09-15T04:57:20.882Z",
+      "file": "down2.html",
+      "bytes": 164043,
+      "sha256": "e5d0a3cea3ee6b90a7f9962961e7e9e42f52261de83ad3a5c7e49d0e6551d4b1",
+      "description": "23・31・223・331番 土曜日・下り（沖縄市・うるま市方面）。原本はページ全体、アプリへの取り込み対象は23番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/23_31_223_331/down3.html",
+      "retrievedAt": "2026-09-15T04:57:21.239Z",
+      "file": "down3.html",
+      "bytes": 164042,
+      "sha256": "904b0f32e7f92d95a0a2bbe68c1f835c904d2e6173b11cb29f12bb9c356ada56",
+      "description": "23・31・223・331番 日祝日・下り（沖縄市・うるま市方面）。原本はページ全体、アプリへの取り込み対象は23番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/23_31_223_331/up1.html",
+      "retrievedAt": "2026-09-15T04:57:21.544Z",
+      "file": "up1.html",
+      "bytes": 228480,
+      "sha256": "1295fe5e8408f201c5544ab626997c395d7f7651bd2fc3d3e16af126c3e03818",
+      "description": "23・31・223・331番 平日・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は23番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/23_31_223_331/up2.html",
+      "retrievedAt": "2026-09-15T04:57:21.940Z",
+      "file": "up2.html",
+      "bytes": 181770,
+      "sha256": "ca767f71889bf8cbc42059a3c3f0109e0983c6d29ff78458e33d02dd45aea501",
+      "description": "23・31・223・331番 土曜日・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は23番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/23_31_223_331/up3.html",
+      "retrievedAt": "2026-09-15T04:57:22.298Z",
+      "file": "up3.html",
+      "bytes": 181772,
+      "sha256": "602ecec25995ddeb642a26aade2a8247de1a878a4f1dbaf8e1899c288485ed77",
+      "description": "23・31・223・331番 日祝日・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は23番の安謝橋〜那覇バスターミナル間のみ。"
+    }
+  ]
+}

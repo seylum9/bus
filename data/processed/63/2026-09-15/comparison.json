@@ -1,0 +1,115 @@
+{
+  "baselineFile": "timetable-data.js",
+  "baselineSha256": "1714372044b9c3089ec947d4d67271c016bb0d8dc679314e52f5fb02615148ea",
+  "comparisonKey": [
+    "route",
+    "time",
+    "via"
+  ],
+  "pages": [
+    {
+      "page": "down1",
+      "direction": "outbound",
+      "day": "wd",
+      "tripCount": 14,
+      "oldTripCount": 14,
+      "oldStopTimeCount": 143,
+      "newStopTimeCount": 143,
+      "differences": [],
+      "outsideScope": [],
+      "tripIdsOnlyInOld": [],
+      "tripIdsOnlyInNew": []
+    },
+    {
+      "page": "down2",
+      "direction": "outbound",
+      "day": "sat",
+      "tripCount": 12,
+      "oldTripCount": 12,
+      "oldStopTimeCount": 120,
+      "newStopTimeCount": 120,
+      "differences": [],
+      "outsideScope": [],
+      "tripIdsOnlyInOld": [],
+      "tripIdsOnlyInNew": []
+    },
+    {
+      "page": "down3",
+      "direction": "outbound",
+      "day": "sun",
+      "tripCount": 12,
+      "oldTripCount": 12,
+      "oldStopTimeCount": 120,
+      "newStopTimeCount": 120,
+      "differences": [],
+      "outsideScope": [],
+      "tripIdsOnlyInOld": [],
+      "tripIdsOnlyInNew": []
+    },
+    {
+      "page": "down3",
+      "direction": "outbound",
+      "day": "holiday",
+      "tripCount": 12,
+      "oldTripCount": 12,
+      "oldStopTimeCount": 120,
+      "newStopTimeCount": 120,
+      "differences": [],
+      "outsideScope": [],
+      "tripIdsOnlyInOld": [],
+      "tripIdsOnlyInNew": []
+    },
+    {
+      "page": "up1",
+      "direction": "inbound",
+      "day": "wd",
+      "tripCount": 15,
+      "oldTripCount": 15,
+      "oldStopTimeCount": 156,
+      "newStopTimeCount": 156,
+      "differences": [],
+      "outsideScope": [],
+      "tripIdsOnlyInOld": [],
+      "tripIdsOnlyInNew": []
+    },
+    {
+      "page": "up2",
+      "direction": "inbound",
+      "day": "sat",
+      "tripCount": 12,
+      "oldTripCount": 12,
+      "oldStopTimeCount": 123,
+      "newStopTimeCount": 123,
+      "differences": [],
+      "outsideScope": [],
+      "tripIdsOnlyInOld": [],
+      "tripIdsOnlyInNew": []
+    },
+    {
+      "page": "up3",
+      "direction": "inbound",
+      "day": "sun",
+      "tripCount": 12,
+      "oldTripCount": 12,
+      "oldStopTimeCount": 120,
+      "newStopTimeCount": 120,
+      "differences": [],
+      "outsideScope": [],
+      "tripIdsOnlyInOld": [],
+      "tripIdsOnlyInNew": []
+    },
+    {
+      "page": "up3",
+      "direction": "inbound",
+      "day": "holiday",
+      "tripCount": 12,
+      "oldTripCount": 12,
+      "oldStopTimeCount": 120,
+      "newStopTimeCount": 120,
+      "differences": [],
+      "outsideScope": [],
+      "tripIdsOnlyInOld": [],
+      "tripIdsOnlyInNew": []
+    }
+  ]
+}

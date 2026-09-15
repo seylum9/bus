@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/52_61/down1.html",
+      "retrievedAt": "2026-09-15T06:31:52.076Z",
+      "file": "down1.html",
+      "bytes": 88937,
+      "sha256": "adade9dd639725211dfd766e43f9e142efd3e2b19c5e0557fc989b7d7f30b722",
+      "description": "52・61番 平日・下り（屋慶名バスターミナル方面）。原本はページ全体、アプリへの取り込み対象は52番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/52_61/down2.html",
+      "retrievedAt": "2026-09-15T06:31:52.347Z",
+      "file": "down2.html",
+      "bytes": 88981,
+      "sha256": "2a732d1a47c1f2177079c20a2ff9f28491d5bb0f5e8c65f8fef942ec2886a0cd",
+      "description": "52・61番 土曜・下り（屋慶名バスターミナル方面）。原本はページ全体、アプリへの取り込み対象は52番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/52_61/down3.html",
+      "retrievedAt": "2026-09-15T06:31:52.544Z",
+      "file": "down3.html",
+      "bytes": 74239,
+      "sha256": "2d215f54bfff38f51fbf88335c575c53bd9025fe01349f515316c2f222b2fc62",
+      "description": "52・61番 日祝日・下り（屋慶名バスターミナル方面）。原本はページ全体、アプリへの取り込み対象は52番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/52_61/up1.html",
+      "retrievedAt": "2026-09-15T06:31:52.793Z",
+      "file": "up1.html",
+      "bytes": 88431,
+      "sha256": "88663e494548fa91314a40c29867c8968eb3fcb7722dc94d8bdc2c73cfb27218",
+      "description": "52・61番 平日・上り（那覇バスターミナル・サンエーパルコシティー方面）。原本はページ全体、アプリへの取り込み対象は52番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/52_61/up2.html",
+      "retrievedAt": "2026-09-15T06:31:52.992Z",
+      "file": "up2.html",
+      "bytes": 88459,
+      "sha256": "f5d9cf688c909236b1ddbae759655a1235d576be30af5f0febcc06f369ec1746",
+      "description": "52・61番 土曜・上り（那覇バスターミナル・サンエーパルコシティー方面）。原本はページ全体、アプリへの取り込み対象は52番の安謝橋〜那覇バスターミナル間のみ。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/52_61/up3.html",
+      "retrievedAt": "2026-09-15T06:31:53.275Z",
+      "file": "up3.html",
+      "bytes": 73972,
+      "sha256": "6aad528033963a42ec91210e44a464fca5ee881c0d7cc4ba52a83db0c3993210",
+      "description": "52・61番 日祝日・上り（那覇バスターミナル・サンエーパルコシティー方面）。原本はページ全体、アプリへの取り込み対象は52番の安謝橋〜那覇バスターミナル間のみ。"
+    }
+  ]
+}
