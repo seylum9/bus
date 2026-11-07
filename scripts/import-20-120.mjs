@@ -222,7 +222,7 @@ export function browserData(data) {
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   assert(process.argv.length <= 3, 'Usage: node scripts/import-20-120.mjs [source-directory]');
-  const sourceDir = path.resolve(process.argv[2] || path.join(ROOT, 'data/source/20_120/2026-09-15'));
+  const sourceDir = path.resolve(process.argv[2] || path.join(ROOT, 'data/source/20_120/2026-11-07'));
   const outputDir = path.join(ROOT, 'data/processed/20_120', path.basename(sourceDir));
   const { data, comparison } = build(sourceDir, path.join(ROOT, 'timetable-data.js'));
   fs.mkdirSync(outputDir, { recursive: true });

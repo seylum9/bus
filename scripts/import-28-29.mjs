@@ -15,11 +15,41 @@ const assert = (condition, message) => { if (!condition) throw new Error(message
 
 export function parsePage(html, page) {
   assert(PAGES.includes(page), `Unknown 28/29 page: ${page}`);
-  return parseTable(html, page, CONFIG);
+  // 取得原本は変更しない。確認済みの原本だけに公式PDFの補正を適用する。
+  // 別の取得内容には適用せず、通常の重複・逆転時刻検証に委ねる。
+  const corrections = [];
+  if (page === 'down1' && hash(html) === '754d5fa6b1997a25e261fb76042ac3f8a32b3f8c7aa7937effa24f374a27389f') {
+    const wrongTimes = new Map([
+      ['沖縄タイムス前', '2020'],
+      ['ラ・ジェント・ホテル沖縄那覇前', '2022'],
+      ['泊高橋', '2024'],
+    ]);
+    html = html.replace(/<tr\b[^>]*>[\s\S]*?<\/tr>/g, row => {
+      const stop = row.match(/<td class="stop">([^<]+)<\/td>/)?.[1];
+      const wrong = wrongTimes.get(stop);
+      if (!wrong) return row;
+      let cell = 0;
+      return row.replace(/<td\b[^>]*>[\s\S]*?<\/td>/g, value => {
+        // 先頭3セルは運賃・停留所、38列目が那覇BT 20:30発。
+        if (++cell !== 41 || value !== `<td class="time">${wrong}</td>`) return value;
+        corrections.push({ sourceColumn: 38, sourceName: stop, originalTime: wrong, corrected: 'non-stop' });
+        return '<td>｜</td>';
+      });
+    });
+    assert(corrections.length === 3, 'Expected three official PDF corrections');
+  }
+  const parsed = parseTable(html, page, CONFIG);
+  if (corrections.length) parsed.corrections = {
+    sourceUrl: 'https://daiichibus.co.jp/ryukyubus/wp-content/uploads/2026/09/028_wd_00.pdf',
+    file: '028_wd_00.pdf', page: 2, column: 24, route: '28', departure: '20:30', via: '牧志',
+    reason: '久茂地側3停留所は公式PDFでは空欄。20:20・20:22・20:24は隣の那覇BT 20:15発の時刻。',
+    cells: corrections,
+  };
+  return parsed;
 }
 
 export function build(sourceDir, baselineFile) {
-  const { sources } = JSON.parse(fs.readFileSync(path.join(sourceDir, 'source.json'), 'utf8'));
+  const { sources, references = [] } = JSON.parse(fs.readFileSync(path.join(sourceDir, 'source.json'), 'utf8'));
   assert(sources?.length === 4, 'Expected four source records');
   const pages = PAGES.map(page => {
     const matches = sources.filter(s => s.file === `${page}.html`);
@@ -27,7 +57,15 @@ export function build(sourceDir, baselineFile) {
     const source = matches[0], bytes = fs.readFileSync(path.join(sourceDir, source.file));
     assert(bytes.length === source.bytes && hash(bytes) === source.sha256, `Source hash mismatch: ${page}`);
     assert(source.sourceUrl === `https://www.kotsu-okinawa.org/time/28_29_228/${page}.html`, `Source URL mismatch: ${page}`);
-    return { ...parsePage(bytes.toString('utf8'), page), source };
+    const parsed = parsePage(bytes.toString('utf8'), page);
+    if (parsed.corrections) {
+      const matches = references.filter(r => r.file === parsed.corrections.file && r.sourceUrl === parsed.corrections.sourceUrl);
+      assert(matches.length === 1, 'Missing/duplicate official PDF reference');
+      const reference = matches[0], pdf = fs.readFileSync(path.join(sourceDir, reference.file));
+      assert(pdf.length === reference.bytes && hash(pdf) === reference.sha256, 'Official PDF hash mismatch');
+      parsed.corrections.reference = reference;
+    }
+    return { ...parsed, source };
   });
   const schedules = pages.flatMap(page => (page.day === 'sat' ? ['sat','sun','holiday'] : ['wd'])
     .map(day => ({ page: page.page, direction: page.direction, day, trips: page.trips })));
@@ -87,7 +125,7 @@ export function report(comparison) {
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   assert(process.argv.length <= 3, 'Usage: node scripts/import-28-29.mjs [source-directory]');
-  const sourceDir = path.resolve(process.argv[2] || path.join(ROOT,'data/source/28_29_228/2026-09-15'));
+  const sourceDir = path.resolve(process.argv[2] || path.join(ROOT,'data/source/28_29_228/2026-11-07'));
   const outputDir = path.join(ROOT,'data/processed/28_29',path.basename(sourceDir));
   const { data, comparison } = build(sourceDir,path.join(ROOT,'timetable-data.js'));
   fs.mkdirSync(outputDir,{recursive:true});

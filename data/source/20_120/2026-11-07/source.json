@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/20_120/down1.html",
+      "retrievedAt": "2026-11-07T09:56:13.109Z",
+      "file": "down1.html",
+      "bytes": 121720,
+      "sha256": "2e097e248b2e6f63e300bfa644a1f6d83fdee2187ba0b3847d6b636de3004126",
+      "description": "20・120番 平日・下り（名護方面）。原本はページ全体、アプリへの取り込み対象は那覇バスターミナル〜安謝橋。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/20_120/down2.html",
+      "retrievedAt": "2026-11-07T09:56:13.190Z",
+      "file": "down2.html",
+      "bytes": 126428,
+      "sha256": "000c715c5e17b78a4d15909e7ca6a2d11be0fdfeb1d16b77d9345a3e3342c370",
+      "description": "20・120番 土曜日・祝日・下り（名護方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/20_120/down3.html",
+      "retrievedAt": "2026-11-07T09:56:13.245Z",
+      "file": "down3.html",
+      "bytes": 125991,
+      "sha256": "1d0a6c26994c025ac3556b95198cebad608af97558631d48d0c7d611a1963d74",
+      "description": "20・120番 日曜日・下り（名護方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/20_120/up1.html",
+      "retrievedAt": "2026-11-07T09:56:13.296Z",
+      "file": "up1.html",
+      "bytes": 121986,
+      "sha256": "6f1b630c1c77bee8102b1816593ce1b152712b459bf0c2e909c61f38f9817afa",
+      "description": "20・120番 平日・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/20_120/up2.html",
+      "retrievedAt": "2026-11-07T09:56:13.349Z",
+      "file": "up2.html",
+      "bytes": 126579,
+      "sha256": "ff3c04d4810cfbdede9f1ceb2305bcbbd466255993ce5b17fbc67262303e6ff5",
+      "description": "20・120番 土曜日・祝日・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル。"
+    },
+    {
+      "sourceUrl": "https://www.kotsu-okinawa.org/time/20_120/up3.html",
+      "retrievedAt": "2026-11-07T09:56:13.693Z",
+      "file": "up3.html",
+      "bytes": 126154,
+      "sha256": "778c52dee8fcca56523df579fbc1d3d8b7876cc2d006c3876d83c7cb1d80bff6",
+      "description": "20・120番 日曜日・上り（那覇方面）。原本はページ全体、アプリへの取り込み対象は安謝橋〜那覇バスターミナル。"
+    }
+  ]
+}

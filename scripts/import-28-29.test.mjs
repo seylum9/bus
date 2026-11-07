@@ -55,6 +55,7 @@ test('both directions serve section boundaries and retain branch-specific stops 
 });
 
 test('every displayed row matches the extraction, with identical Saturday, Sunday and holiday service', () => {
+  const { data } = build(path.join(root, 'data/source/28_29_228/2026-11-07'), path.join(root, 'timetable-data.js'));
   assert.equal(read('timetable-28-29.js'), browserData(data));
   for (const schedule of data.schedules) {
     const stops = plain(ctx.getTimetableStops(schedule.direction));

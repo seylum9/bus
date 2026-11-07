@@ -11,10 +11,11 @@ test('all 117 Asahibashi times match their original HTML cells and source column
   const groups = ['20_120','23','24_27_80_92_110','26','32_43_132_143_385'];
   let count = 0;
   for (const group of groups) {
-    const data = JSON.parse(read(`data/processed/${group}/2026-09-15/timetable.json`));
+    const date = group === '20_120' ? '2026-11-07' : '2026-09-15';
+    const data = JSON.parse(read(`data/processed/${group}/${date}/timetable.json`));
     for (const page of data.pages.filter(p => p.direction === 'inbound')) {
       const sourceGroup = new URL(page.source.sourceUrl).pathname.split('/')[2];
-      const html = read(`data/source/${sourceGroup}/2026-09-15/${page.source.file}`);
+      const html = read(`data/source/${sourceGroup}/${date}/${page.source.file}`);
       const table = html.match(/<table class="timetable_table">([\s\S]*?)<\/table>/)[1];
       const header = table.match(/<thead>[\s\S]*?<tr[^>]*>([\s\S]*?)<\/tr>/)[1];
       const routes = [...header.matchAll(/<th[^>]*>([^<]*)<\/th>/g)].slice(1).map(m => m[1]);

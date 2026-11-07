@@ -8,7 +8,7 @@ import { browserData } from './import-20-120.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
-const extracted = JSON.parse(read('data/processed/20_120/2026-09-15/timetable.json'));
+const extracted = JSON.parse(read('data/processed/20_120/2026-11-07/timetable.json'));
 const context = vm.createContext({});
 for (const file of ['timetable-data.js', 'timetable-20-120.js', 'timetable-23.js', 'timetable-24-27-80-92-110.js', 'timetable-26.js', 'timetable-28-29.js', 'timetable-63.js', 'timetable-32-43-132-143-385.js', 'timetable-52.js', 'timetable.js']) vm.runInContext(read(file), context);
 const plain = value => JSON.parse(JSON.stringify(value));
@@ -76,7 +76,7 @@ test('page controls render Sunday/holiday schedules and correct trip details', (
   assert.equal(plain(app.getStopData('安謝橋','sun')).find(r=>r.r==='20').t, '06:01');
   app.selectTrip('20_120_down3_11');
   assert.ok(elements.get('trip-detail').innerHTML.includes('久茂地経由'));
-  assert.ok(elements.get('trip-detail').innerHTML.includes('12:00'));
+  assert.ok(elements.get('trip-detail').innerHTML.includes('12:03'));
   app.setDay(5, elements.get('d5'));
   assert.equal(vm.runInContext('dayKey()', app), 'holiday');
   assert.equal(plain(app.getStopData('安謝橋','holiday')).find(r=>r.r==='20').t, '06:11');
@@ -84,9 +84,9 @@ test('page controls render Sunday/holiday schedules and correct trip details', (
   app.setDirection('inbound', elements.get('d1'));
   app.setDay(4, elements.get('d4'));
   const sunday = plain(app.getStopData('安謝橋','sun'));
-  assert.ok(sunday.some(r=>r.r==='120'&&r.t==='08:30'));
-  assert.ok(!sunday.some(r=>r.r==='120'&&r.t==='08:16'));
-  assert.equal(elements.get('data-footer').textContent, '全18路線：2026-09-15取得 / 出典: バスマップ沖縄(kotsu-okinawa.org)');
+  assert.ok(sunday.some(r=>r.r==='120'&&r.t==='08:38'));
+  assert.ok(!sunday.some(r=>r.r==='120'&&r.t==='08:21'));
+  assert.equal(elements.get('data-footer').textContent, '全18路線：2026-09-15〜2026-11-07取得 / 出典: バスマップ沖縄(kotsu-okinawa.org)');
   app.setDay(3, elements.get('d3'));
   app.selectTrip('24_27_80_92_93_110_227_777_up2_7');
   assert.ok(elements.get('trip-detail').innerHTML.includes('美栄橋経由'));
@@ -104,13 +104,13 @@ test('page controls render Sunday/holiday schedules and correct trip details', (
   assert.ok(elements.get('trip-detail').innerHTML.includes('15:10'));
   app.selectTrip('28_29_228_up2_3');
   assert.ok(elements.get('trip-detail').innerHTML.includes('牧志経由'));
-  assert.ok(elements.get('trip-detail').innerHTML.includes('08:46'));
+  assert.ok(elements.get('trip-detail').innerHTML.includes('08:45'));
   assert.ok(elements.get('trip-detail').innerHTML.includes('那覇BT'));
   app.setDirection('outbound', elements.get('d1'));
   app.setDay(1, elements.get('d1'));
   app.selectTrip('28_29_228_down1_4');
   assert.ok(elements.get('trip-detail').innerHTML.includes('29'));
-  assert.ok(elements.get('trip-detail').innerHTML.includes('08:04'));
+  assert.ok(elements.get('trip-detail').innerHTML.includes('08:05'));
   app.setDay(3, elements.get('d3'));
   assert.equal(plain(app.getStopData('那覇BT','sat')).filter(r=>r.r==='63').at(-1).t, '19:00');
   app.setDay(5, elements.get('d5'));
